@@ -11,4 +11,5 @@ function getInfofromMatch(url){
 
 module.exports={
     getInfofromMatch:getInfofromMatch,
+    
 }
