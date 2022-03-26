@@ -25,6 +25,6 @@ function handlehtml(html){
         let fullpath="https://www.espncricinfo.com/"+relativelink;
         // console.log(fullpath);
         allmatchObj.getallmatch(fullpath)
-       
-       
+        
+    
 }
