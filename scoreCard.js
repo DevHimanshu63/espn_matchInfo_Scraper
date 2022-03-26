@@ -71,6 +71,7 @@ function matchdetail(html){
           `playerName -> ${playerName} runsScored ->  ${runs} ballsPlayed ->  ${balls} numbOfFours -> ${numberOf4} numbOfSixes -> ${numberOf6}  strikeRate-> ${sr}`
         );
             }
+            
 
         }
         // console.log(allRows.length);
