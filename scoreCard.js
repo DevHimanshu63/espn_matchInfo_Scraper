@@ -66,12 +66,13 @@ function matchdetail(html){
         let numberOf4 = selecTool(row.find("td")[5]).text();
         let numberOf6 = selecTool(row.find("td")[6]).text();
         let sr = selecTool(row.find("td")[7]).text();
+        
 
         console.log(
           `playerName -> ${playerName} runsScored ->  ${runs} ballsPlayed ->  ${balls} numbOfFours -> ${numberOf4} numbOfSixes -> ${numberOf6}  strikeRate-> ${sr}`
         );
             }
-            
+
 
         }
         // console.log(allRows.length);
