@@ -117,13 +117,12 @@ function matchdetail(html) {
                 numberOf6,
                 sr
             };
-
+            
             content.push(playerObj)
             excelWriter(playerpath,content,playerName);
 
 
         }
-
 
 
     }
