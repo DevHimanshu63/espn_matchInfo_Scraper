@@ -1,6 +1,8 @@
 let url="https://www.espncricinfo.com/series/ipl-2020-21-1210595"
 const request =require("request");
 const cheerio=require("cheerio");
+const fs=require("fs")
+const path=require("path")
 let allmatchObj=require("./allmatch")
 
 request(url,cb);
@@ -12,6 +14,18 @@ function cb(err , res ,html){
         handlehtml(html);
     }
 }
+
+
+
+    let iplpath=path.join(__dirname,"ipl")
+    if(!fs.existsSync(iplpath)){
+        fs.mkdirSync(iplpath)
+    }else{
+        console.log("folder exist");
+    }
+    // console.log(iplpath);
+    
+
 
 // /series/ipl-2020-21-1210595/match-results'
 function handlehtml(html){

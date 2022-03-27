@@ -27,9 +27,9 @@ function extractscorelinkhtml(html){
             let fulllink="https://www.espncricinfo.com"+allmatchlink
             // console.log(fulllink);
             matchInfo.getInfofromMatch(fulllink)
-            break;
+            // break;
         }
-        
+
 
         
 }
